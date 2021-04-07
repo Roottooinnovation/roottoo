@@ -1,0 +1,525 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Yatra One', cursive;
+}
+@media (max-width:786px)
+{
+    .maindiv{
+        position: relative;
+        width: 100%;
+        height: 220vh;
+        background-color: ghostwhite;
+    }
+    .main_content{
+        position: relative;
+        width: 100%;
+        height: 220vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main_content > .main_div1{
+        position: absolute;
+        width: 100%;
+        height: 120vh;
+    }
+    .main_content > .main_div2{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 55%;
+        padding-top: 5px;
+    }
+    .main_content > .main_div1 > .main_div11{
+        border: 1px solid rgba(128, 128, 128, 0.336);
+        border-radius: 15px;
+        position: absolute;
+        width: 100%;
+        height: 87vh;
+        top: 5%;
+        background-color: lavender;
+    }
+    .main_content  > .main_div1 > .main_div11 > .coverimg{
+        border: 1px solid rgba(128, 128, 128, 0.336);
+        position: absolute;
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .main_content > .main_div1 > .main_div12{
+        border: 1px solid rgba(128, 128, 128, 0.336);
+        border-radius: 10px;
+        position: absolute;
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(194, 224, 222);
+    }
+    .main_content > .main_div1 > .main_div12 > h1{
+        font-size: 2rem;
+        color: rgb(21, 6, 56);
+        animation: text1 4s linear infinite;
+    }
+    @keyframes text1 {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    .main_content > .main_div1 > .main_div12 > img{
+        position: absolute;
+        width: 300px;
+        height: 75px;
+        object-fit: contain;
+        top: -40%;
+        left: -25%;
+    }
+    .main_content > .main_div1 > .main_div12 > h5{
+        color: indigo;
+        margin: 10px 0px;
+    }
+    .main_content > .main_div1 > .main_div12 > h3{
+        color: rgb(50, 121, 2);
+        margin: 15px 0px;
+    }
+    .main_content > .main_div1 > .main_div12 > a{
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 5px 25px;
+        border-radius: 20px;
+        margin: 10px;
+        color: cornsilk;
+        background-color: rgba(252, 19, 19, 0.966);
+    }
+    .main_content > .main_div1 > .main_div12 > .li{
+        background-color: blue;
+        color: cornsilk;
+    }
+    .main_content > .main_div1 > .main_div12  > .pagelink{
+        border-top: 1px solid rgba(128, 128, 128, 0.336);
+        background-color: lightslategray;
+        border-radius: 10px;
+        position: absolute;
+        top: 105%;
+        width: 100%;
+        height: 8vh;
+        padding: 12px 0px 12px 0px;
+    }
+    .main_content > .main_div1 > .main_div12  > .pagelink > .navlist{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .main_content > .main_div1 > .main_div12  > .pagelink > .navlist > li > a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: maroon;
+    }
+    .main_content > .main_div1 > .main_div12  > .pagelink > .navlist > li > a:hover{
+        text-decoration: underline;
+        color: darkgreen;
+    }
+    .main_content > .main_div1 > .main_div13{
+        border: 1px solid rgba(128, 128, 128, 0.185);
+        border-radius: 10px;
+        background-color: rgb(230, 171, 84);
+        position: absolute;
+        width: 100%;
+        height: 17vh;
+        top: 85%;
+    }
+    .main_content > .main_div1 > .main_div13 > h2{
+        font-size: 1.1rem;
+        color: midnightblue;
+        letter-spacing: 2px;
+        margin: 2px 10px;
+    }
+    .main_content > .main_div1 > .main_div13 > p{
+        font-size: 0.9rem;
+        margin: 7px 20px;
+        color: rgb(0, 72, 85);
+        letter-spacing: 2px;
+    }
+    .main_content > .main_div1 > .main_div13 > a{
+        border-top: 1px solid rgba(176, 196, 222, 0.37);
+        text-decoration: none;
+        font-size: 1rem;
+        color: rgb(73, 3, 21);
+        letter-spacing: 2px;
+        padding-left: 65px;
+    }
+
+    .main_div2 > .toutline{
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: auto;
+    }
+    .toutline > .topbar {
+        position: absolute;
+        border: 1px solid rgba(114, 114, 114, 0.171);
+        border-radius: 10px;
+        width: 100%;
+        height: 10vh;
+        color: rgb(250, 217, 214);
+        font-size: 1.2rem;
+        top: 0%;
+        text-align: center;
+        background-color: rgb(226, 113, 61);
+    }
+
+    .toutline >#myLinks, .main2 > .toutline >.verticallist{
+        display: none;
+    }
+    .toutline > .topbar > h3{
+        font-size: 1.5rem;
+        margin-top: 10px;
+        font-weight: 600;
+        color: rgb(240, 242, 255);
+    }
+    .toutline >  #myLinks, .toutline >  .icon{
+        display: none;
+    }
+    .toutline > #myLinks {
+        position: absolute;
+        border-radius: 10px;
+        width: 100%;
+      display: flex;
+      align-items: center;
+      top: 0%;
+      padding-left: 10px;
+      background-color: rgb(187, 205, 245);
+      display: none;
+    }
+    
+    .toutline > #myLinks >  h5 > .optionlink{
+      float: left;
+      color: rgb(98, 13, 105);
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin: 20px 12px;
+    }
+    
+    .toutline > .icon {
+      position: absolute;
+      top: 3%;
+      left: 88%;
+      color: rgb(218, 0, 0);
+      display: block;
+    }
+    
+    .toutline > .optionlink > :hover{
+      text-decoration: underline;
+     }
+     .maincontent > .sidebar{
+        display: none;
+    }
+    .toutline >.topbar{
+        overflow: hidden;
+        background-color: rgb(2, 0, 139);
+        position: relative;
+      }
+      .maincontent > .main_content{
+          display: none;
+      }   
+      .maincontent > .riteam{
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        padding: 15px;
+        background-color: rgb(165, 221, 187);
+        border-radius: 10px;
+    }
+    
+    .maincontent > .riteam > h3{
+        font-size: 1.1rem;
+        color: midnightblue;
+    }
+    .maincontent > .riteam > .ri{
+        list-style-type: none;
+        margin-top: 10px;
+    }
+    .maincontent > .riteam > .ri > li{
+        margin: 3px;
+        color:  rgb(7, 78, 35);
+        font-size: 1rem;
+    }
+    .maincontent > .riteam > .ri > li > .arrow,
+     .maincontent > .staffing_content > .staffing_1 > li> .arrow_1,
+     .maincontent > .dev > .devlist> li > .arrow_2, 
+     .maincontent > .traindev > .tdlist > li > .arrow_3 {
+        color: indigo;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    .maincontent > .rfp{
+        background-color: rgb(165, 221, 187);
+        position: absolute;
+    top: 20%;
+    left: 0%;
+    padding-right: 10px;
+    display: none;
+    }
+    .maincontent > .rfp > h6{
+    font-size: 1.2rem;
+    color: midnightblue;
+    margin-bottom: 30px;
+    }
+    
+    .maincontent > .rfp > p{
+        font-size: 0.9rem;
+        /* letter-spacing: 2px; */
+        text-align: justify;
+        margin: 5px;
+        color: rgb(0, 116, 39);
+    }
+    .maincontent > .rfq{
+        position: absolute;
+        color: floralwhite;
+        top: 20%;
+        left: 0%;
+        display: none;
+        padding: 10px;
+    }
+    .maincontent > .rfq > .row1{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: ghostwhite;
+            padding: 0px;
+    }
+    .maincontent > .rfq > .row1 > .rowtext{
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(70, 70, 70, 0.164);
+            padding: 15px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-align: center;
+            color: rgb(0, 116, 39);
+    }
+    .maincontent > .rfq > .row1 > .rowlabel{
+        color: goldenrod;
+    }
+    .staffing_content{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        display: none;
+        background-color: rgb(233, 228, 180);
+    }
+    .maincontent > .staffing_content > .staffing_1{
+        list-style-type: none;
+    }
+    .maincontent > .staffing_content > .staffing_1 > li{
+        font-size: 1.2rem;
+        color: rgb(0, 116, 39);
+        margin: 20px;
+    }
+    .maincontent > .auditing_content {
+        position: absolute;
+        top: 25%;
+        left: 0%;
+        display: none;
+        background-color: rgb(233, 228, 180);
+    }
+    
+    .maincontent > .auditing_content > h3, .maincontent > .dev > h3, .maincontent > .staffing_content > h3, .maincontent > .traindev > h3{
+        font-size: 1.2rem;
+        color: midnightblue;
+        margin: 20px;
+    }
+    
+    .maincontent > .auditing_content >p{
+        font-size: 0.9rem;
+        letter-spacing: 1.5px;
+        text-align: justify;
+        margin: 20px;
+        color: rgb(0, 116, 39);
+    }
+    
+    .maincontent > .dev{
+        position: absolute;
+        top: 25%;
+        left: 0%;
+        display: none;
+        background-color: rgb(233, 228, 180);
+    }
+    
+    .maincontent > .dev > .devlist{
+        list-style-type: none;
+        margin:20px 0px ;
+    }
+    .maincontent > .dev > .devlist > li{
+        font-size: 1.2rem;
+        margin-bottom:20px ;
+        color: rgb(0, 116, 39);
+    }
+    
+    .maincontent > .traindev {
+        position: absolute;
+        top: 25%;
+        left: 0%;
+        display: none;
+        background-color: rgb(233, 228, 180);
+    }
+    .maincontent > .traindev > .tdlist{
+        list-style-type: none;
+        margin:20px 0px;
+    }
+    .maincontent > .traindev > .tdlist >li{
+        font-size: 1.2rem;
+        margin-bottom:20px;
+        color: rgb(0, 116, 39);
+    }
+
+    .maincontent > .verticallist{
+        position: absolute;
+        top: 12%;
+        background-color: rgba(252, 252, 252, 0.452);
+        border-radius: 5px;
+        display: none;
+        background-color: darkseagreen;
+    }
+    .maincontent > .verticallist > .list{
+        border: 1px solid  rgba(2, 10, 59, 0.192);
+        color: rgb(24, 0, 177);
+        font-weight: 500;
+        padding: 20px 30px;
+        font-size: 0.9rem;
+    }
+    .footer{
+        position: relative;
+        width: 100%;
+        height: 220vh;
+        top: 0%;
+        background-color: rgba(0, 72, 85, 0.521);
+    }
+    .footer_content{
+            position: relative;
+            top: 0%;
+            width: 100%;
+            height: 220vh;
+            display: flex;
+            flex-direction: column;
+    }
+    .footer_content > .footer1{
+        position: relative;
+        top: 0%;
+        width: 100%;
+        text-align: center;
+    }
+    .footer_content > .footer1 > img{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+    }
+    .footer_content > .footer2{
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_content > .footer3{
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+        top: 60%;
+        left: -10%;
+        text-align: left;
+    }
+    .footer_content > .footer2 > .footerverticals{
+        font-size: 1.1rem;
+        color: rgb(12, 4, 63);
+    }
+    .footer_content > .footer2 > .footerlinks{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        position: absolute;
+        top: 80%;
+    }
+    .footer_content > .footer2 > .footerverticals > h3{
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        color: rgb(6, 18, 85);
+    }
+    .footer_content > .footer2 > .footerverticals > h6{
+        font-size: 0.9rem;
+        color: rgb(19, 67, 122);
+    }
+    .footer_content > .footer2 > .footerlinks > a{
+        text-decoration: none;
+        color: rgb(19, 67, 122);
+    }
+    .footer_content > .footer2 > .footerlinks > a:hover{
+        text-decoration: underline;
+    }
+    .footer_content > .footer3 > h3{
+        font-size: 1.5rem;
+        color: rgb(6, 18, 85);
+    }
+    .footer_content > .footer3 > .address > .fa-map-marker{
+        color: rgb(49, 0, 88);
+        font-size: 2rem;
+    }
+    .footer_content > .footer3 > .address > p{
+        color: rgb(19, 67, 122);
+        font-size: 0.9rem;
+    }
+    .footer_content > .footer3 > .phoneno > .fa-mobile{
+        color: rgb(49, 0, 88);
+        font-size: 2rem;
+    }
+    .footer_content > .footer3 > .phoneno > a{
+    
+        color: rgb(19, 67, 122);
+        font-size: 0.9rem;
+    }
+    .footer_content > .footer3 > .gmail > .fa-envelope{
+        color: rgb(49, 0, 88);
+        font-size: 1.8rem;
+    }
+    .footer_content > .footer3 > .gmail  > a{
+    
+        color: rgb(19, 67, 122);
+        font-size: 0.9rem;
+    }
+    .footer_content > .footer3 >.socialacc{
+        position: absolute;
+        top: 105%;
+        left: 10%;
+    }
+    .footer_content > .footer3 > .gmail > .socialacc{
+        display: none;
+    }
+    .footer_content > .footer3 >.socialacc > p > a > .fa-instagram{
+            color: rgb(145, 45, 20);
+            font-size: 1.5rem;
+            margin: 5px;
+    }
+    .footer_content > .footer3 >.socialacc > p > a >.fa-youtube-play {
+        color: rgb(189, 0, 0);
+        font-size: 1.5rem;
+        margin: 5px;
+    }
+    .footer_content > .footer3 >.socialacc > p > a>  .fa-linkedin-square {
+        color: rgb(19, 67, 122);
+        font-size: 1.5rem;
+        margin: 5px;
+    }
+    .footer > .copyright > p{
+        position: absolute;
+        top: 95%;
+        left: 0%;
+    font-size: 1rem;
+    color: rgb(34, 18, 2);
+    text-align: center;
+    }
+}

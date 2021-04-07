@@ -1,0 +1,518 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Yatra One', cursive;
+}
+@media (max-width:1920px){
+    .mainabout_div{
+    width: 100%;
+
+    }
+    
+.parallax {
+    position:relative;
+    z-index:1;
+    height:450px;
+   
+  box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+  }
+  
+  #trans1 {
+    background: url('https://img.freepik.com/free-photo/creative-image-many-business-people-conference-group-meeting_31965-7388.jpg?size=626&ext=jpg') no-repeat fixed;
+    height:575px;
+    background-position: center top;
+    background-size: cover;
+  }
+  
+  #trans2 {
+    background: url('https://i.pinimg.com/736x/9b/95/1f/9b951f8df4e15518d03599eeeeadf405.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  #trans3 {
+    background: url('https://img.freepik.com/free-photo/creative-image-many-business-people-conference-group-meeting_31965-7388.jpg?size=626&ext=jpg') no-repeat top center fixed;
+    background-size: cover;
+    height:550px;
+  }
+  
+  .txt {
+    font-size:55px;
+    color:rgb(35, 48, 90);
+    width:auto;
+    text-align: center;
+      
+    padding:5px 10px;
+  }
+  
+  .txt.sub {
+    font-size:50px;
+    line-height:175%;
+    font-weight:lighter;
+    letter-spacing:1.5px;
+    font-size:25px;
+    color:#ccc;
+    margin: 90px 100px 0 100px;
+  }
+  .content {
+    box-sizing:border-box;-moz-box-sizing:border-box;
+    position:relative;
+    z-index:2;
+    background:#FFF;
+    width:100%;
+  
+    margin:0;
+    padding:10px 20px;
+    box-shadow: 0px 6px 5px rgba(50, 50, 50, 0.75);
+    text-align:left;
+  }
+  
+  .content.right {
+    text-align:right;
+  }
+  
+  .content h2 { padding:0 25px; }
+  .content p { padding:0 50px; }
+.r2itext_1{
+  color: blue;
+  font-size: 2rem;
+}
+  .about_logo{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .about_logo > img{
+      width: 180px;
+      height: 80px;
+      object-fit: cover;
+      margin: 40px;
+  }
+  .about_logo > a > .backbtn{
+      text-decoration: none;
+      width: 100px;
+      height: 40px;
+      margin: 30px;
+      cursor:initial;
+      border: 1px solid lightcyan;
+      border-radius: 10px;
+      outline: none;
+      background-color: rgb(231, 252, 183);
+      color: mediumblue;
+      font-size: 1.2rem;
+  }
+  .about__text > h2{
+      font-size: 3rem;
+      text-align: center;
+      margin: 120px 0px;
+      color: maroon;
+      font-style: italic;
+      animation: textfade 3s linear;
+  }
+  @keyframes textfade{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  .abt {
+    width: 60%;
+    margin: auto;
+    height: 70vh;
+  }
+  .abt > .about_text > h2{
+      font-size: 2rem;
+      color: mediumslateblue;
+      text-align: center;
+      margin: 20px;
+  }
+  .abt > .about_text > p{
+    font-size: 1.5rem;
+    color: olive;
+    margin: 20px;
+    letter-spacing: 2px;
+  }
+  .abt > .about_text > a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: rgba(144, 238, 144, 0.671);
+    color: blueviolet;
+    margin: 10px 70px;
+  }
+ 
+  .footer{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 60vh;
+    background-color: lightslategrey;
+}
+.footer_content{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+}
+.footer_content > .footer1{
+    width: 25%;
+    height: 50vh;
+}
+.footer_content > .footer1 > img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 50px;
+    border-radius: 50%;
+}
+.footer_content > .footer2{
+    width: 30%;
+    height: 50vh;
+    margin: 20px;
+    display: flex;
+}
+.footer_content > .footer3{
+ 
+    width: 30%;
+    height: 50vh;
+    margin: 20px 0px 20px 90px;
+}
+.footer_content > .footer2 > .footerverticals{
+
+    font-size: 1.5rem;
+    color: rgb(12, 4, 63);
+    margin: 25px 0px;
+}
+.footer_content > .footer2 > .footerlinks{
+  
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+.footer_content > .footer2 > .footerverticals > h3{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: rgb(161, 65, 0);
+    margin: 10px 10px;
+}
+.footer_content > .footer2 > .footerverticals > h6{
+    font-size: 1.2rem;
+    color: rgb(1, 78, 14);
+    margin: 15px 20px;
+}
+.footer_content > .footer2 > .footerlinks > a{
+    text-decoration: none;
+    color: rgb(119, 0, 113);
+    margin: 15px 50px;
+}
+.footer_content > .footer2 > .footerlinks > a:hover{
+    text-decoration: underline;
+}
+.footer_content > .footer3 > h3{
+    font-size: 1.5rem;
+    color: rgb(5, 54, 52);
+    margin: 15px 0px;
+}
+.footer_content > .footer3 > .address > p >  .fa-map-marker{
+    color: rgb(49, 0, 88);
+    font-size: 1.5rem;
+}
+.footer_content > .footer3 > .address > p{
+    color: rgb(49, 0, 88);
+    font-size: 0.9rem;
+    margin: 10px 10px;
+}
+.footer_content > .footer3 > .phoneno > .fa-mobile{
+    color: rgb(49, 0, 88);
+    font-size: 1.6rem;
+    margin-left: 15px;
+}
+.footer_content > .footer3 > .phoneno > a{
+
+    color: rgb(49, 0, 88);
+    font-size: 0.9rem;
+    margin: 10px 10px;
+}
+.footer_content > .footer3 > .gmail > .fa-envelope{
+    color: rgb(49, 0, 88);
+    font-size: 1.8rem;
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+.footer_content > .footer3 > .gmail  > a{
+
+    color: rgb(49, 0, 88);
+    font-size: 0.9rem;
+    margin: 10px 10px;
+}
+.footer_content > .footer3 > .gmail .socialacc{
+    position: absolute;
+    left: 90%;
+    top: 30%;
+}
+.footer_content > .footer3 > .socialacc{
+    display: none;
+}
+.footer_content > .footer3 > .gmail > .socialacc > p > a > .fa-instagram{
+  color: rgb(145, 45, 20);
+  font-size: 1.5rem;
+  margin: 5px;
+}
+.footer_content > .footer3 > .gmail> .socialacc > p > a >.fa-youtube-play {
+color: rgb(189, 0, 0);
+font-size: 1.5rem;
+margin: 5px;
+}
+.footer_content > .footer3 > .gmail> .socialacc > p > a >  .fa-linkedin-square {
+color: rgb(19, 67, 122);
+font-size: 1.5rem;
+margin: 5px;
+}
+.footer > .copyright > p{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+font-size: 1.1rem;
+color: rgb(34, 18, 2);
+}
+
+@media (max-width:786px){
+    .mainabout_div{
+        width: 100%;
+    
+        }
+
+
+.parallax {
+  position:relative;
+  z-index:1;
+  height:450px;
+  shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+}
+
+#trans1 {
+  background: url('https://img.freepik.com/free-photo/creative-image-many-business-people-conference-group-meeting_31965-7388.jpg?size=626&ext=jpg') no-repeat fixed;
+  height:575px;
+  background-position: center top;
+
+  background-size: cover;
+}
+
+#trans2 {
+  background: url('https://i.pinimg.com/736x/9b/95/1f/9b951f8df4e15518d03599eeeeadf405.jpg') no-repeat center center fixed;
+
+  background-size: cover;
+}
+
+#trans3 {
+  background: url('https://img.freepik.com/free-photo/creative-image-many-business-people-conference-group-meeting_31965-7388.jpg?size=626&ext=jpg') no-repeat top center fixed;
+
+  background-size: cover;
+  height:550px;
+}
+
+
+.about_logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_logo > img{
+    width: 180px;
+    height: 80px;
+    object-fit: cover;
+    margin: 10px;
+}
+.about_logo > a > .backbtn{
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    cursor:initial;
+    border: 1px solid lightcyan;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(231, 252, 183);
+    color: mediumblue;
+    font-size: 1.2rem;
+}
+.about__text > h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 120px 0px;
+    color: maroon;
+    font-style: italic;
+    animation: textfade 3s linear;
+}
+@keyframes textfade{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.abt {
+  width: 100%;
+  margin: 0px;
+  /* padding: 10px; */
+  background-color: cornsilk;
+  height: 80vh;
+}
+.abt > .about_text > h2{
+    font-size: 2rem;
+    color: mediumslateblue;
+    text-align: center;
+    margin: 5px;
+}
+.abt > .about_text > p{
+  font-size: 1rem;
+  color: olive;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+.abt > .about_text > a{
+  text-decoration: none;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  background-color: rgba(144, 238, 144, 0.671);
+  color: blueviolet;
+  margin: 10px 70px;
+}
+.footer{
+  position: relative;
+  width: 100%;
+  height: 220vh;
+  top: 0%;
+  background-color: rgba(0, 72, 85, 0.521);
+}
+.footer_content{
+      position: relative;
+      top: 0%;
+      width: 100%;
+      height: 220vh;
+      display: flex;
+      flex-direction: column;
+}
+.footer_content > .footer1{
+  position: relative;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+}
+.footer_content > .footer1 > img{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+.footer_content > .footer2{
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer_content > .footer3{
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  top: 60%;
+  left: -20%;
+}
+.footer_content > .footer2 > .footerverticals{
+  font-size: 1.1rem;
+  color: rgb(12, 4, 63);
+}
+.footer_content > .footer2 > .footerlinks{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 80%;
+}
+.footer_content > .footer2 > .footerverticals > h3{
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: rgb(161, 65, 0);
+}
+.footer_content > .footer2 > .footerverticals > h6{
+  font-size: 0.9rem;
+  color: rgb(1, 78, 14);
+}
+.footer_content > .footer2 > .footerlinks > a{
+  text-decoration: none;
+  color: rgb(16, 57, 95);
+}
+.footer_content > .footer2 > .footerlinks > a:hover{
+  text-decoration: underline;
+}
+.footer_content > .footer3 > h3{
+  font-size: 1.5rem;
+  color: rgb(5, 54, 52);
+}
+.footer_content > .footer3 > .address > p >  .fa-map-marker{
+  color: rgb(49, 0, 88);
+  font-size: 2rem;
+}
+.footer_content > .footer3 > .address > p{
+  color: rgb(49, 0, 88);
+  font-size: 0.9rem;
+}
+.footer_content > .footer3 > .phoneno > .fa-mobile{
+  color: rgb(49, 0, 88);
+  font-size: 2rem;
+}
+.footer_content > .footer3 > .phoneno > a{
+
+  color: rgb(49, 0, 88);
+  font-size: 0.9rem;
+}
+.footer_content > .footer3 > .gmail > .fa-envelope{
+  color: rgb(49, 0, 88);
+  font-size: 1.8rem;
+}
+.footer_content > .footer3 > .gmail  > a{
+
+  color: rgb(49, 0, 88);
+  font-size: 0.9rem;
+}
+.footer_content > .footer3 >.socialacc{
+  position: absolute;
+  top: 105%;
+  left: 10%;
+}
+.footer_content > .footer3 > .gmail > .socialacc{
+  display: none;
+}
+.footer_content > .footer3 >.socialacc > p > a > .fa-instagram{
+  color: rgb(145, 45, 20);
+  font-size: 1.5rem;
+  margin: 5px;
+}
+.footer_content > .footer3 >.socialacc > p > a >.fa-youtube-play {
+color: rgb(189, 0, 0);
+font-size: 1.5rem;
+margin: 5px;
+}
+.footer_content > .footer3 >.socialacc > p > a>  .fa-linkedin-square {
+color: rgb(19, 67, 122);
+font-size: 1.5rem;
+margin: 5px;
+}
+.footer > .copyright > p{
+  position: absolute;
+  top: 95%;
+  left: 0%;
+font-size: 1.1rem;
+color: rgb(34, 18, 2);
+text-align: center;
+}
+}
